@@ -21,3 +21,5 @@ You need to pass the following parameters to parse a JO recipe:
 2. JO recipe URL, for example: [https://www.jamieoliver.com/recipes/liver-recipes/liver-bacon-onions/](https://www.jamieoliver.com/recipes/liver-recipes/liver-bacon-onions/)
 
 Now, please click `Parse Recipe` button to expect structured recipe data output.
+
+![Screenshot](./recipe-parse-screenshot.png "Recipe Parse Screenshot")
