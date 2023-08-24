@@ -21,7 +21,7 @@ class Recipe(BaseModel):
     name: str = Field(description="The name of the recipe")
     ingredients: List[Ingredient] = Field(description="The list of ingredients for the recipe")
 
-PAGE_TITLE = "Amazing JO's Recipe"
+PAGE_TITLE = "🥑 Amazing JO's Recipe"
 st.set_page_config(layout="centered", page_title=PAGE_TITLE)
 
 st.title(PAGE_TITLE)
