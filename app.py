@@ -14,7 +14,7 @@ import streamlit as st
 
 class Ingredient(BaseModel):
     name: str = Field(description="The name of the ingredient")
-    quantity: float = Field(description="The specific unit of measurement corresponding to the quantity, such as grams, ounces, liters, etc.")
+    quantity: str = Field(description="The specific unit of measurement corresponding to the quantity, such as grams, ounces, liters, etc.")
     unit: str = Field(description="The amount of the ingredient required for the recipe. This can be represented using various units such as grams, cups, teaspoons, etc.")
 
 class Recipe(BaseModel):
